@@ -17,7 +17,7 @@ const Home: NextPage = () => {
           Welcome to <a href="https://nextjs.org">Next.js!</a>
         </h1>
 
-        <p className={styles.description}>
+        <p className={`text-blue-600 ${styles.description}`}>
           Get started by editing{' '}
           <code className={styles.code}>pages/index.tsx</code>
         </p>
