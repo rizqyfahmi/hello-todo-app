@@ -4,7 +4,14 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    fontFamily: {
+      nunito: ["nunito", "sans-serif"]
+    },
+    extend: {
+      transitionProperty: {
+        'max-height': 'max-height'
+      }
+    },
   },
   plugins: [],
 }
