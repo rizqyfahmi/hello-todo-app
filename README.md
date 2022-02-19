@@ -1,14 +1,13 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+A simple web application project based on ```NextJS``` and ```Tailwind``` as a framework
 
-## Getting Started
+### Minimum Requirement
+- NextJS 12.0.10
+- Tailwind 3.0.23
+- heroicons 1.0.5
 
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-```
+### Getting Started
+- npm install
+- npm run dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
