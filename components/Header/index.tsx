@@ -29,8 +29,8 @@ const Header = () => {
     }
 
     return (
-        <div className="bg-white shadow font-nunito" >
-            <div className="container max-w-wd mx-auto px-6 grid grid-cols-2">
+        <div className="bg-white shadow" >
+            <div className="container mx-auto px-2 grid grid-cols-2">
                 <div className="col-span-1">
                     <Link href="/"><a className="block py-3 px-2 font-bold">TODO App</a></Link>
                 </div>
