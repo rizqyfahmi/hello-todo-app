@@ -9,7 +9,8 @@ module.exports = {
     },
     extend: {
       transitionProperty: {
-        'max-height': 'max-height'
+        'max-height': 'max-height',
+        'max-width': 'max-width'
       }
     },
   },

@@ -7,3 +7,5 @@ export const cookieToJSON = (cookie: string) => {
         return prev;
     }, {});
 }
+
+export const URLParameterBuilder = (data: any) => Object.keys(data).map((key) => [key, data[key]].map(encodeURIComponent).join('=')).join('&');

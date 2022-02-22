@@ -1,6 +1,7 @@
 import { NextPage } from "next";
 import { useRouter } from "next/router";
 import React, { useState } from "react";
+import { URLParameterBuilder } from "../../helpers";
 
 const Login: NextPage = () => {
 
@@ -8,7 +9,6 @@ const Login: NextPage = () => {
     const [username, setUsername] = useState("")
     const [password, setPassword] = useState("")
 
-    const URLParameterBuilder = (data: any) => Object.keys(data).map((key) => [key, data[key]].map(encodeURIComponent).join('=')).join('&');
     const onSubmit = async (e: React.FormEvent) => {
         e.preventDefault()
 

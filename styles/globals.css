@@ -3,3 +3,11 @@
 @tailwind utilities;
 
 @import url('https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap');
+
+.blur {
+  filter: url(#f1);
+  -webkit-filter: url(#f1);
+  -moz-filter: url(#f1);
+  -o-filter: url(#f1);
+  -ms-filter: url(#f1);
+}

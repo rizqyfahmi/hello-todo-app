@@ -1,9 +1,14 @@
 import { MenuIcon } from "@heroicons/react/solid"
 import Link from "next/link"
 import { useRouter } from "next/router"
-import { useState } from "react"
+import React, { ComponentType, ReactChildren, useState } from "react"
 
-const Header = () => {
+type HeaderType = {
+    isBlur?: Boolean | false
+    children?: ComponentType
+}
+
+const Header = (props: HeaderType) => {
     const router = useRouter()
     const [navbar, setNavbar] = useState('max-h-0 ease-out')
 
@@ -29,7 +34,7 @@ const Header = () => {
     }
 
     return (
-        <div className="bg-white shadow" >
+        <div className={`bg-white shadow ${!props.isBlur ? '' : 'blur'}`}>
             <div className="container mx-auto px-2 grid grid-cols-2">
                 <div className="col-span-1">
                     <Link href="/"><a className="block py-3 px-2 font-bold">TODO App</a></Link>
