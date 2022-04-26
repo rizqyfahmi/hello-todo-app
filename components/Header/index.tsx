@@ -53,6 +53,9 @@ const Header = (props: HeaderType) => {
                         <Link href="/showcase"><a className="block py-3 px-2 flex-1 font-semibold text-left text-slate-600 hover:text-slate-900 md:px-3 md:text-center">Showcase</a></Link>
                     </div>
                     <div className="flex">
+                        <Link href="/clientside"><a className="block py-3 px-2 flex-1 font-semibold text-left text-slate-600 hover:text-slate-900 md:px-3 md:text-center">Client</a></Link>
+                    </div>
+                    <div className="flex">
                         <button className="block py-3 px-2 flex-1 font-semibold text-left text-slate-600 hover:text-slate-900 md:px-3 md:text-center" onClick={onLogout}>Logout</button>
                     </div>
                 </div>

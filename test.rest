@@ -1,0 +1,18 @@
+POST http://localhost:8081/login 
+Accept: application/json
+content-type: application/x-www-form-urlencoded
+
+username=rizqyfahmi@gmail.com
+&password=Hello123
+
+###
+POST http://localhost:8081/validate-token
+
+###
+GET http://localhost:8081/
+
+###
+POST  http://localhost:8081/bind
+
+###
+POST http://localhost:8081/auth
